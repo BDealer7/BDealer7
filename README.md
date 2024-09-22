@@ -1,5 +1,3 @@
-any pronouns
-
 ```
 ; Add Codeium to load-path
 (add-to-list 'load-path "~/.emacs.d/codeium.el/codeium.el")
@@ -283,12 +281,12 @@ any pronouns
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(codeium/metadata/api_key "d9b0f82c-5cd5-4620-8a8c-7ac88d2ba605")
- '(custom-enabled-themes '(night-owl))
+ '(custom-enabled-themes '(kaolin-valley-light))
  '(custom-safe-themes
-   '("4363ac3323e57147141341a629a19f1398ea4c0b25c79a6661f20ffc44fdd2cb" \... "default"))
- '(load-theme 'night-owl t)
+   '("5a00018936fa1df1cd9d54bee02c8a64eafac941453ab48394e2ec2c498b834a" "06ed754b259cb54c30c658502f843937ff19f8b53597ac28577ec33bb084fa52" "a131602c676b904a5509fff82649a639061bf948a5205327e0f5d1559e04f5ed" "2ce76d65a813fae8cfee5c207f46f2a256bac69dacbb096051a7a8651aa252b0" "3c7a784b90f7abebb213869a21e84da462c26a1fda7e5bd0ffebf6ba12dbd041" "4363ac3323e57147141341a629a19f1398ea4c0b25c79a6661f20ffc44fdd2cb" \... "default"))
+ '(load-theme 'kaolin-valley-light t)
  '(package-selected-packages
-   '(js2-refactor tide dashboard page-break-lines format-all toggle-term typescript-mode all-the-icons-ivy-rich all-the-icons-dired eshell-git-prompt eshell-prompt-extras eshell-did-you-mean eshell-command-not-found counsel-projectile night-owl-theme jedi jedi-core centaur-tabs lsp-ivy company-go js2-mode json-mode dap-mode corfu ag dumb-jump ripgrep smartparens expand-region \...)))
+   '(kaolin-themes js2-refactor tide dashboard page-break-lines format-all toggle-term typescript-mode all-the-icons-ivy-rich all-the-icons-dired eshell-git-prompt eshell-prompt-extras eshell-did-you-mean eshell-command-not-found counsel-projectile night-owl-theme jedi jedi-core centaur-tabs lsp-ivy company-go js2-mode json-mode dap-mode corfu ag dumb-jump ripgrep smartparens expand-region \...)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -399,5 +397,6 @@ any pronouns
 (add-hook 'typescript-mode-hook #'setup-tide-mode)
 ;; if you use treesitter based typescript-ts-mode (emacs 29+)
 (add-hook 'typescript-ts-mode-hook #'setup-tide-mode)
+
 
 ```
